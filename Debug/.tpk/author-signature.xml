@@ -1,0 +1,67 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="AuthorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="shared/res/screen-density-xhigh/mainmenu.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
+</Reference>
+<Reference URI="bin/cube.exe">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>knK9SInK0/1aGxFWL0ePIFD39FZKt2gYB8Vwf0J8shc=</DigestValue>
+</Reference>
+<Reference URI="info/manifest.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1XAmlQhRb1n3k8QoOyhT2gtVfkaUEjGaphOcG4BnK6I=</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lpo8tUDs054eLlBQXiDPVDVKfw30ZZdtkRs1jd7H5K8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+o4YYqeEaf/AbBeeUCRizpFINhkBfUjVqOGoQSnzFXPnfldZMJsi1bIG7KkzA/IfBIYJpY/J3ekAq
+4vTACSOQFkof7nuNLQ85iwE6Y1aLxVnyF9Mdbs1ZJL81mTFRY02yo2Qt/DuZ/+khln/NTTMvtuah
+Tjp9HsEk24+qqR2BLHY=
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIICsjCCAZqgAwIBAgIGAUoUWXk2MA0GCSqGSIb3DQEBBQUAMFYxGjAYBgNVBAoMEVRpemVuIEFz
+c29jaWF0aW9uMRowGAYDVQQLDBFUaXplbiBBc3NvY2lhdGlvbjEcMBoGA1UEAwwTVGl6ZW4gRGV2
+ZWxvcGVycyBDQTAeFw0xMjExMDEwMDAwMDBaFw0xOTAxMDEwMDAwMDBaMC4xCzAJBgNVBAYTAmtv
+MQ4wDAYDVQQHDAVzZW91bDEPMA0GA1UEAwwGYXV0aG9yMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCB
+iQKBgQDM/s4jHm9idMOztw5GNCyutdIHHXxqLaQoXNxLszlbvVtVzKgreXNHSeIeVOK46tpOWl3m
+sdCu7phJrgn85sgDIJuHzlkukSrOJ9D9zcaMEr5RQCldl9ue13IiXoA5Y6Aim6xRq5i8gf/Reinn
+S2KOXL1dqwnpmPSaGj4pL0WSFwIDAQABozIwMDAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIHgDAT
+BgNVHSUEDDAKBggrBgEFBQcDAzANBgkqhkiG9w0BAQUFAAOCAQEAUAtPQMD+YfyKV2pfCc7vZUyb
+5kowB/OxP2i2k8dV/NXbi3frBAdLdf6/Y7sh7IXkPcYzzjmNossy5jg+iMy8hRW7LXS69RD+Rn4A
+wYNjhG8kh/F6Hofsn6eNDn94UJz0nNsU4CkR98qBl2Zn/dWA3AeA3cTj0umW4cAeyTDFO11ok7jC
+KG2HKcfox6jbVsMfzRb4rZR8XMkRp+l5aizVSGuvQ1QCec/QX5CTppPUsYDeNgPJvIYFscWLWory
+JQXOXD2Oy3YXyCKzqh7Zvih8RK/c6+4cVjmpQvsiAtET7pHw4ygwZLIYNxw1b6SveW/PcfYkjRze
+UjgoG/e39n54/w==
+</X509Certificate>
+<X509Certificate>
+MIIDOTCCAiGgAwIBAgIBATANBgkqhkiG9w0BAQUFADBYMRowGAYDVQQKDBFUaXplbiBBc3NvY2lh
+dGlvbjEaMBgGA1UECwwRVGl6ZW4gQXNzb2NpYXRpb24xHjAcBgNVBAMMFVRpemVuIERldmVsb3Bl
+cnMgUm9vdDAeFw0xMjAxMDEwMDAwMDBaFw0yNzAxMDEwMDAwMDBaMFYxGjAYBgNVBAoMEVRpemVu
+IEFzc29jaWF0aW9uMRowGAYDVQQLDBFUaXplbiBBc3NvY2lhdGlvbjEcMBoGA1UEAwwTVGl6ZW4g
+RGV2ZWxvcGVycyBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANVGhRGmMIUyBA7o
+PCz8Sxut6z6HNkF4oDIuzuKaMzRYPeWodwe9O0gmqAkToQHfwg2giRhE5GoPld0fq+OYMMwSasCu
+g8dwODx1eDeSYVuOLWRxpAmbTXOsSFi6VoWeyaPEm18JBHvZBsU5YQtgZ6Kp7MqzvQg3pXOxtajj
+vyHxiatJl+xXrHgcXC1wgyG3buty7u/Fi2mvKXJ0PRJcCjjK81dqe/Vr20sRUCrbk02zbm5ggFt/
+jIEhV8wbFRQpliobc7J4dSTKhFfrqGM8rdd54LYhD7gSI1CFSe16pUXfcVR7FhJztRaiGLnCrwBE
+dyTZ248+D4L/qR/D0axb3jcCAwEAAaMQMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOC
+AQEAnOXXQ/1O/QTDHyrmQDtFziqPY3xWlJBqJtEqXiT7Y+Ljpe66e+Ee/OjQMlZe8gu21/8cKklH
+95RxjopMWCVedXDUbWdvS2+CdyvVW/quT2E0tjqIzXDekUTYwwhlPWlGxvfj3VsxqSFq3p8Brl04
+1Gx5RKAGyKVsMfTLhbbwSWwApuBUxYfcNpKwLWGPXkysu+HctY03OKv4/xKBnVWiN8ex/Sgesi0M
++OBAOMdZMPK32uJBTeKFx1xZgTLIhk45V0hPOomPjZloiv0LSS11eyd451ufjW0iHRE7WlpR6EvI
+W6TFyZgMpQq+kg4hWl2SBTf3s2VI8Ygz7gj8TMlClg==
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#AuthorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#AuthorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-author"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#AuthorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>
